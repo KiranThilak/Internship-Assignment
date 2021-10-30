@@ -34,18 +34,40 @@
           font-size: 30px;
           color: #787979;
       }
-       .main-lists{
-           font-size: 20px;
+      .bubble1{
+          padding: 20px;
+          background-color:#f6dfeb;
+          width: 115px;
+          height: 100px;
+          border-radius: 25px;
+        }
 
-       }
-           @media  screen and (min-width: 1024){
-            .dashboard .navigation .dashboard-icons
-            .dashboard .navigation .dashboard-icons div span,
-            .section .secondary{
-                display: block;
-            }
-           }
-           
+        .bubble2{
+            padding: 20px;
+            background-color:#caf7e3;
+            width: 115px;
+            height: 100px;
+            border-radius: 25px;
+          }
+
+          .bubble3{
+            padding: 20px;
+            background-color:#fff8d9;
+            width: 115px;
+            height: 100px;
+            border-radius: 25px;
+          }
+
+          .bubble4{
+            padding: 20px;
+            background-color:#fff5eb;
+            width: 115px;
+            height: 100px;
+            border-radius: 25px;
+          }
+          
+
+       
           
 
 
