@@ -5,6 +5,7 @@
     body{
         margin: 0px;
         background-color: #ffffff;
+        
     }
     .dashboard{
         padding: 25px 75px;
@@ -23,17 +24,39 @@
 
     }
       .logokaboodle {
-          width: 100px;
-          height: 100px;
+          width: 10px;
+          height: 10px;
           border-radius: 10px;
+
       }
+      .Dashboard{
+        padding: 20px;
+        background-color:#fff5eb;
+        width: 115px;
+        height: 100px;
+        border-radius: 25px;
+        
+
+      }
+     
+
+      
 
       .dashboard-icons{
           margin-left: 5px;
           margin-right: 5px;
           font-size: 30px;
           color: #787979;
+          text-align: center;
+          
       }
+
+      .text{
+
+        text-align-last: right;
+      }
+
+
       .bubble1{
           padding: 20px;
           background-color:#f6dfeb;
@@ -67,14 +90,49 @@
             width: 115px;
             height: 100px;
             border-radius: 25px;
-            text-align: center;
+            text-align-last: center;
           }
           
 
-       
-          
+          @media only screen and (min-width: 1024px) { 
+              .dashboard .navigation,
+              .dashboard .navigation div span,
+              section.secondary{
+                  display: block;
+              }
 
+            
+              .dashboard .navigation{
+                  width: 60px;
+                  position: fixed;
+                  z-index: 10;
+              }
+              section.main{
+                  width:  65%;
+                  margin-left: 90px;
+                  margin-right: 20px;
+              }
+              section.secondary{
+                  width: 27%;
+                  padding-top:0px;
+                  position: fixed;
+                  top: 20px;
+                  right: 0px;
+              }
+              .dashboard .navigation .dashboard-icons{
+                  margin-top: 10vh;
+                  margin-bottom: 10vh;
+              }
+              .dashboard .navigation .dashboard-icons{
+                margin-top: 5vh;
+                
+            }
+            .your-points{
+                background-color: #65ebef;
+                width: 175px;
+                height: 100px;
+                border-radius: 20px;
+                text-align: center;
+            }
 
-        
-    
-      
+            
