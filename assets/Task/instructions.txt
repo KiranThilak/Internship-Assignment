@@ -1,0 +1,7 @@
+Instructions:
+
+1. Develop the Dashboard (Responsive)
+2. Develop Settings page with functions that are shown in the video (Check video for demo)
+3. Use icons & images given in the Adobe XD file provided
+4. Write clean code and have structures directories.
+5. Do not use images of elements and texts. Use images only of icons and images used in the design.
