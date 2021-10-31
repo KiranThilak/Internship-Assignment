@@ -40,8 +40,6 @@
       }
      
 
-      
-
       .dashboard-icons{
           margin-left: 5px;
           margin-right: 5px;
@@ -51,11 +49,7 @@
           
       }
 
-      .text{
-
-        text-align-last: right;
-      }
-
+     
 
       .bubble1{
           padding: 20px;
@@ -92,7 +86,24 @@
             border-radius: 25px;
             text-align-last: center;
           }
-          
+          .your-points{
+            background-color: #65ebef;
+            width: 175px;
+            height: 100px;
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .your-points{
+            background-color: #65ebef;
+            width: 175px;
+            height: 100px;
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
 
           @media only screen and (min-width: 1024px) { 
               .dashboard .navigation,
@@ -103,7 +114,7 @@
 
             
               .dashboard .navigation{
-                  width: 60px;
+                  width: 50px;
                   position: fixed;
                   z-index: 10;
               }
@@ -122,17 +133,6 @@
               .dashboard .navigation .dashboard-icons{
                   margin-top: 10vh;
                   margin-bottom: 10vh;
-              }
-              .dashboard .navigation .dashboard-icons{
-                margin-top: 5vh;
-                
-            }
-            .your-points{
-                background-color: #65ebef;
-                width: 175px;
-                height: 100px;
-                border-radius: 20px;
-                text-align: center;
-            }
-
+             
+             
             
